@@ -5,8 +5,8 @@
     
     <entry>
       <title>hexo博客搭建指南：系统化方案与详细构建过程</title>
-      <link href="//p/blog-solution-process-overview/"/>
-      <url>//p/blog-solution-process-overview/</url>
+      <link href="//p/hexo-solution-process-overview/"/>
+      <url>//p/hexo-solution-process-overview/</url>
       
         <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在当今数字时代，搭建一个高效、个性化的博客已成为许多内容创作者和开发者的目标。本篇文章旨在从全局视角介绍博客的整体方案，涵盖从内容管理到线上部署的各个层面。我们将详细探讨如何利用Notion进行内容整理，通过eLog实现与Hexo的同步，并最终将博客部署到GitHub Pages和Cloudflare Pages。此外，文章还将提供未来的产品路线图，展示博客的迭代优化过程和功能扩展。</p><h2 id="产品架构"><a href="#产品架构" class="headerlink" title="产品架构"></a>产品架构</h2><p><img src="https://raw.githubusercontent.com/doublemingw/gallery/main/images/hexo%E5%8D%9A%E5%AE%A2%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84-cn-2-wm.png" alt="产品架构"></p><p>说明：</p><ul><li>总共分成四个层次，notion 笔记层、hexo 博客本地管理层、线上部署层、用户感知层</li><li>noiton笔记层，利用noiton的强大能力，整理和输出内容<ul><li>elog，一键将notion内容同步到hexo本地博客管理</li></ul></li><li>hexo 博客本地管理层，进行博客自定义管理</li><li>线上部署层，将博客先挂载到github pages，再挂载到cloudflare pages</li><li>用户感知层，用户访问网站地址获取内容</li><li>多语言管理：<ul><li>两个独立的中英文博客项目</li><li>前端JavaScript+cloudflare worker实现语言切换</li></ul></li></ul><h2 id="产品路线图"><a href="#产品路线图" class="headerlink" title="产品路线图"></a>产品路线图</h2><table><thead><tr><th><strong>版本号</strong></th><th><strong>目标</strong></th><th><strong>相关博文</strong></th></tr></thead><tbody><tr><td>V1.0.1</td><td>从0到1，本地搭建和线上部署</td><td>1.hexo+butterfly+github pages+cloudflare pages（待发布）</td></tr><tr><td>V1.0.2</td><td>从0 到 1， 实现 notion 内容同步到hexo 博客</td><td>1.通过Elog，实现notion内容同步到hexo博客（待发布）</td></tr><tr><td>V1.0.3</td><td>从 0 到 1，购买、解析域名</td><td>1.hexo博客，namecheap购买域名，使用cloudflare解析（待发布）</td></tr><tr><td>V1.1.1</td><td>新增支持多语言切换</td><td>1.hexo博客butterfly主题，支持多语言切换（待发布）</td></tr><tr><td>V1.1.2</td><td>新增 butterfly 主题配置</td><td>2.hexo博客butterfly主题优化（待发布）</td></tr></tbody></table>]]></content>
       
